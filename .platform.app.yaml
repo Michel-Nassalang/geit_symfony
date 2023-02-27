@@ -14,7 +14,7 @@ type: 'php:8.2'
 # indicates that the mount point will point to a local directory on the
 # application container. The 'source_path' specifies the subdirectory
 # from within the source that the mount should point at. 
-mounts:
+mounts: 
   'web/uploads':
     source: local
     source_path: uploads
